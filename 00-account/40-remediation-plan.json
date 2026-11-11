@@ -1,0 +1,95 @@
+{
+  "login": "gadix-labs",
+  "brand_core_version": 1,
+  "approved_by_owner": true,
+  "actions": [
+    {
+      "action": "update_user_profile",
+      "fields": {
+        "name": "Mohamed Gad",
+        "bio": "Platform engineer \u00b7 Kubernetes, GitOps & AI infrastructure",
+        "company": "@10-vanilla-k8s-and-hardening"
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "org": "00-governance",
+      "fields": {
+        "name": "Governance",
+        "description": "Policies, standards, and guardrails for the cloud-native platform."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "org": "10-vanilla-k8s-and-hardening",
+      "fields": {
+        "name": "Vanilla Kubernetes & Hardening",
+        "description": "Building upstream Kubernetes clusters and hardening them for production."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "org": "20-workload-deployments",
+      "fields": {
+        "name": "Workload Deployments",
+        "description": "Deploying and operating workloads on Kubernetes."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "org": "30-gitops-argocd-flux",
+      "fields": {
+        "name": "GitOps with Argo CD & Flux",
+        "description": "Declarative, Git-driven delivery with Argo CD and Flux."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "org": "40-cluster-automation",
+      "fields": {
+        "name": "Cluster Automation",
+        "description": "Automating cluster lifecycle, provisioning, and day-2 operations."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "org": "org-ai-governance",
+      "fields": {
+        "name": "AI Governance",
+        "description": "Governance, policy, and guardrails for AI systems."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "org": "org-cheaper-inference",
+      "fields": {
+        "name": "Cheaper Inference",
+        "description": "Cost-efficient model inference infrastructure."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "org": "org-cheaper-inference-analysis",
+      "fields": {
+        "name": "Cheaper Inference Analysis",
+        "description": "Benchmarking and analysis for cheaper model inference."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "org": "org-omnilabs-ai",
+      "fields": {
+        "name": "OmniLabs AI",
+        "description": "Applied AI infrastructure and experiments."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "org": "portfolio-git-hub-branding",
+      "fields": {
+        "name": "Portfolio GitHub Branding",
+        "description": "Practice and workspace for turning a GitHub account into a storefront."
+      }
+    }
+  ]
+}

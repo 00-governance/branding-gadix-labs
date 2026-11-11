@@ -1,0 +1,84 @@
+# Brand core — gadix-labs
+# Runtime artifact. Not part of the agnostic practice.
+# Derived from runtime/gadix-labs/10-inventory.json by the account-audit skill.
+brand_core:
+  version: 1
+  owner:
+    github_login: gadix-labs
+    display_name: Mohamed Gad
+    headline: Platform engineer building Kubernetes, GitOps, and AI infrastructure
+    tagline: Infrastructure that scales, governed by default
+    audience: engineering leaders and platform teams hiring for cloud-native and AI-infrastructure roles
+    location: ""
+    website: ""
+    contact_email: gadix-labs@outlook.com
+  visual:
+    palette:
+      primary: "#0b2545"
+      accent: "#00b4d8"
+      background: "#f8f9fa"
+      text: "#1a1a1a"
+    typography: Inter
+    avatar_spec: square 460x460, designed monogram "GX" on primary
+    banner_spec: 1280x640, tagline + palette, no photo
+  tone:
+    voice: concise, technical, understated
+    do:
+      - lead with outcomes and systems
+      - name the domain (Kubernetes, GitOps, platform, AI infrastructure)
+      - one claim, one proof
+    dont:
+      - hype words (passionate, ninja, guru, 10x)
+      - badge walls
+      - emoji per bullet
+  orgs:
+    - login: 00-governance
+      display_name: Governance
+      code: GOV
+      accent: "#00b4d8"
+      one_liner: Policies, standards, and guardrails for the platform.
+    - login: 10-vanilla-k8s-and-hardening
+      display_name: Vanilla Kubernetes and Hardening
+      code: K8S
+      accent: "#0096c7"
+      one_liner: Building and hardening upstream Kubernetes clusters.
+    - login: 20-workload-deployments
+      display_name: Workload Deployments
+      code: WLD
+      accent: "#48cae4"
+      one_liner: Deploying and operating workloads on Kubernetes.
+    - login: 30-gitops-argocd-flux
+      display_name: GitOps with Argo CD and Flux
+      code: GTO
+      accent: "#0077b6"
+      one_liner: Declarative delivery with Argo CD and Flux.
+    - login: 40-cluster-automation
+      display_name: Cluster Automation
+      code: CLU
+      accent: "#90e0ef"
+      one_liner: Automating cluster lifecycle and operations.
+    - login: org-ai-governance
+      display_name: AI Governance
+      code: AIG
+      accent: "#00b4d8"
+      one_liner: Governance and guardrails for AI systems.
+    - login: org-cheaper-inference
+      display_name: Cheaper Inference
+      code: CHI
+      accent: "#0077b6"
+      one_liner: Cost-efficient model inference infrastructure.
+    - login: org-cheaper-inference-analysis
+      display_name: Cheaper Inference Analysis
+      code: ANL
+      accent: "#48cae4"
+      one_liner: Benchmarking and analysis for cheaper inference.
+    - login: org-omnilabs-ai
+      display_name: OmniLabs AI
+      code: OML
+      accent: "#0096c7"
+      one_liner: Applied AI infrastructure and experiments.
+    - login: portfolio-git-hub-branding
+      display_name: Portfolio GitHub Branding
+      code: PGB
+      accent: "#00b4d8"
+      one_liner: Practice and workspace for GitHub account branding.

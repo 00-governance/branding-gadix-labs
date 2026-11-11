@@ -1,0 +1,143 @@
+{
+  "login": "gadix-labs",
+  "generated": "2026-11-11T16:48:32Z",
+  "actions": [
+    {
+      "action": "update_user_profile",
+      "status": "applied",
+      "intended": {
+        "name": "Mohamed Gad",
+        "bio": "Platform engineer \u00b7 Kubernetes, GitOps & AI infrastructure",
+        "company": "@10-vanilla-k8s-and-hardening"
+      },
+      "live": {
+        "name": "Mohamed Gad",
+        "bio": "Platform engineer \u00b7 Kubernetes, GitOps & AI infrastructure",
+        "company": "@10-vanilla-k8s-and-hardening"
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "status": "applied",
+      "intended": {
+        "name": "Governance",
+        "description": "Policies, standards, and guardrails for the cloud-native platform."
+      },
+      "live": {
+        "name": "Governance",
+        "description": "Policies, standards, and guardrails for the cloud-native platform."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "status": "applied",
+      "intended": {
+        "name": "Vanilla Kubernetes & Hardening",
+        "description": "Building upstream Kubernetes clusters and hardening them for production."
+      },
+      "live": {
+        "name": "Vanilla Kubernetes & Hardening",
+        "description": "Building upstream Kubernetes clusters and hardening them for production."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "status": "applied",
+      "intended": {
+        "name": "Workload Deployments",
+        "description": "Deploying and operating workloads on Kubernetes."
+      },
+      "live": {
+        "name": "Workload Deployments",
+        "description": "Deploying and operating workloads on Kubernetes."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "status": "applied",
+      "intended": {
+        "name": "GitOps with Argo CD & Flux",
+        "description": "Declarative, Git-driven delivery with Argo CD and Flux."
+      },
+      "live": {
+        "name": "GitOps with Argo CD & Flux",
+        "description": "Declarative, Git-driven delivery with Argo CD and Flux."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "status": "applied",
+      "intended": {
+        "name": "Cluster Automation",
+        "description": "Automating cluster lifecycle, provisioning, and day-2 operations."
+      },
+      "live": {
+        "name": "Cluster Automation",
+        "description": "Automating cluster lifecycle, provisioning, and day-2 operations."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "status": "applied",
+      "intended": {
+        "name": "AI Governance",
+        "description": "Governance, policy, and guardrails for AI systems."
+      },
+      "live": {
+        "name": "AI Governance",
+        "description": "Governance, policy, and guardrails for AI systems."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "status": "applied",
+      "intended": {
+        "name": "Cheaper Inference",
+        "description": "Cost-efficient model inference infrastructure."
+      },
+      "live": {
+        "name": "Cheaper Inference",
+        "description": "Cost-efficient model inference infrastructure."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "status": "applied",
+      "intended": {
+        "name": "Cheaper Inference Analysis",
+        "description": "Benchmarking and analysis for cheaper model inference."
+      },
+      "live": {
+        "name": "Cheaper Inference Analysis",
+        "description": "Benchmarking and analysis for cheaper model inference."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "status": "applied",
+      "intended": {
+        "name": "OmniLabs AI",
+        "description": "Applied AI infrastructure and experiments."
+      },
+      "live": {
+        "name": "OmniLabs AI",
+        "description": "Applied AI infrastructure and experiments."
+      }
+    },
+    {
+      "action": "update_org_profile",
+      "status": "applied",
+      "intended": {
+        "name": "Portfolio GitHub Branding",
+        "description": "Practice and workspace for turning a GitHub account into a storefront."
+      },
+      "live": {
+        "name": "Portfolio GitHub Branding",
+        "description": "Practice and workspace for turning a GitHub account into a storefront."
+      }
+    }
+  ],
+  "counts": {
+    "applied": 11
+  }
+}

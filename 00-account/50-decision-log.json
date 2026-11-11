@@ -1,0 +1,153 @@
+{
+  "started": "2026-11-11T16:48:09Z",
+  "dry_run": false,
+  "entries": [
+    {
+      "index": 1,
+      "action": "update_user_profile",
+      "result": "applied",
+      "before": {
+        "name": "Mohamed Gad",
+        "bio": null,
+        "company": null
+      },
+      "after": {
+        "name": "Mohamed Gad",
+        "bio": "Platform engineer \u00b7 Kubernetes, GitOps & AI infrastructure",
+        "company": "@10-vanilla-k8s-and-hardening"
+      }
+    },
+    {
+      "index": 2,
+      "action": "update_org_profile",
+      "result": "applied",
+      "before": {
+        "name": null,
+        "description": null
+      },
+      "after": {
+        "name": "Governance",
+        "description": "Policies, standards, and guardrails for the cloud-native platform."
+      }
+    },
+    {
+      "index": 3,
+      "action": "update_org_profile",
+      "result": "applied",
+      "before": {
+        "name": null,
+        "description": null
+      },
+      "after": {
+        "name": "Vanilla Kubernetes & Hardening",
+        "description": "Building upstream Kubernetes clusters and hardening them for production."
+      }
+    },
+    {
+      "index": 4,
+      "action": "update_org_profile",
+      "result": "applied",
+      "before": {
+        "name": null,
+        "description": null
+      },
+      "after": {
+        "name": "Workload Deployments",
+        "description": "Deploying and operating workloads on Kubernetes."
+      }
+    },
+    {
+      "index": 5,
+      "action": "update_org_profile",
+      "result": "applied",
+      "before": {
+        "name": null,
+        "description": null
+      },
+      "after": {
+        "name": "GitOps with Argo CD & Flux",
+        "description": "Declarative, Git-driven delivery with Argo CD and Flux."
+      }
+    },
+    {
+      "index": 6,
+      "action": "update_org_profile",
+      "result": "applied",
+      "before": {
+        "name": null,
+        "description": null
+      },
+      "after": {
+        "name": "Cluster Automation",
+        "description": "Automating cluster lifecycle, provisioning, and day-2 operations."
+      }
+    },
+    {
+      "index": 7,
+      "action": "update_org_profile",
+      "result": "applied",
+      "before": {
+        "name": null,
+        "description": null
+      },
+      "after": {
+        "name": "AI Governance",
+        "description": "Governance, policy, and guardrails for AI systems."
+      }
+    },
+    {
+      "index": 8,
+      "action": "update_org_profile",
+      "result": "applied",
+      "before": {
+        "name": null,
+        "description": null
+      },
+      "after": {
+        "name": "Cheaper Inference",
+        "description": "Cost-efficient model inference infrastructure."
+      }
+    },
+    {
+      "index": 9,
+      "action": "update_org_profile",
+      "result": "applied",
+      "before": {
+        "name": null,
+        "description": null
+      },
+      "after": {
+        "name": "Cheaper Inference Analysis",
+        "description": "Benchmarking and analysis for cheaper model inference."
+      }
+    },
+    {
+      "index": 10,
+      "action": "update_org_profile",
+      "result": "applied",
+      "before": {
+        "name": null,
+        "description": null
+      },
+      "after": {
+        "name": "OmniLabs AI",
+        "description": "Applied AI infrastructure and experiments."
+      }
+    },
+    {
+      "index": 11,
+      "action": "update_org_profile",
+      "result": "applied",
+      "before": {
+        "name": null,
+        "description": null
+      },
+      "after": {
+        "name": "Portfolio GitHub Branding",
+        "description": "Practice and workspace for turning a GitHub account into a storefront."
+      }
+    }
+  ],
+  "finished": "2026-11-11T16:48:20Z",
+  "applied_count": 11
+}

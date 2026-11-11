@@ -1,0 +1,17 @@
+# never commit credentials
+*.pat
+*.pem
+*.key
+.env
+.env.*
+00-secrets/
+
+# transient script output
+gh-inventory.json
+audit-report.md
+decision-log.json
+verification.json
+
+__pycache__/
+*.pyc
+.DS_Store
