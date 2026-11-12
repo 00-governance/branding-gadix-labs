@@ -30,7 +30,7 @@ This repository is the source of truth for the account's branding and settings.
 | `50-decision-log.json` | Before/after for every applied action |
 | `60-verification.json` | Independent verify: intended == live |
 | `70-inventory-after.json` | Discovery output (after state) |
-| `80-audit-report-after.md` | Audit after remediation — score **51.8/100** |
+| `80-audit-report-after.md` | Audit after logos — score **76.2/100** |
 
 ## Images
 
@@ -77,7 +77,8 @@ monogram), so it is reproducible and agnostic-ready.
 | 13-22 | 10 org profile READMEs | missing | `{org}/.github/profile/README.md` published |
 | 23 | Workspace repo | no description/topics | description + 5 topics set |
 
-Score: **1.5 → 41.6** (mechanical maturity).
+Score: **1.5 → 41.6 → 51.8 → 76.2** (mechanical maturity; the last jump is the
+custom avatar and 10 custom org logos uploaded by the owner).
 
 ## Manual steps the API cannot do
 

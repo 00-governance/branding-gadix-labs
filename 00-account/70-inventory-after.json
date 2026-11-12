@@ -3,8 +3,8 @@
   "login": "gadix-labs",
   "orgs": [
     {
-      "avatar_colors": 2,
-      "avatar_is_default": true,
+      "avatar_colors": 1357,
+      "avatar_is_default": false,
       "avatar_url": "https://avatars.githubusercontent.com/u/353691619?v=4",
       "blog": "https://github.com/40-cluster-automation",
       "company": null,
@@ -28,8 +28,8 @@
       "verified_domains": []
     },
     {
-      "avatar_colors": 2,
-      "avatar_is_default": true,
+      "avatar_colors": 1022,
+      "avatar_is_default": false,
       "avatar_url": "https://avatars.githubusercontent.com/u/353691682?v=4",
       "blog": "https://github.com/30-gitops-argocd-flux",
       "company": null,
@@ -53,8 +53,8 @@
       "verified_domains": []
     },
     {
-      "avatar_colors": 2,
-      "avatar_is_default": true,
+      "avatar_colors": 1309,
+      "avatar_is_default": false,
       "avatar_url": "https://avatars.githubusercontent.com/u/353691730?v=4",
       "blog": "https://github.com/20-workload-deployments",
       "company": null,
@@ -78,8 +78,8 @@
       "verified_domains": []
     },
     {
-      "avatar_colors": 2,
-      "avatar_is_default": true,
+      "avatar_colors": 1361,
+      "avatar_is_default": false,
       "avatar_url": "https://avatars.githubusercontent.com/u/353691833?v=4",
       "blog": "https://github.com/10-vanilla-k8s-and-hardening",
       "company": null,
@@ -103,8 +103,8 @@
       "verified_domains": []
     },
     {
-      "avatar_colors": 2,
-      "avatar_is_default": true,
+      "avatar_colors": 1474,
+      "avatar_is_default": false,
       "avatar_url": "https://avatars.githubusercontent.com/u/353691880?v=4",
       "blog": "https://github.com/00-governance",
       "company": null,
@@ -120,7 +120,7 @@
       ],
       "profile_readme_exists": true,
       "profile_readme_text": "<div align=\"center\">\n\n<img src=\"assets/banner-1280x240.png\" alt=\"Governance\" width=\"100%\" />\n\n# Governance\n\nPolicies, standards, and guardrails for the platform.\n\n<img src=\"https://img.shields.io/badge/owner-gadix--labs-0b2545?style=flat&logo=github\" alt=\"Owner\" />\n\n</div>\n\n## About\n\n**Governance** is part of a cloud-native platform practice: Kubernetes, GitOps,\nand AI infrastructure. This organization groups repositories for one clear domain.\n\n## Explore\n\nBrowse the repositories below, or see the full list in the organization's\nrepository tab.\n\n<div align=\"center\">\n<sub>Maintained by <a href=\"https://github.com/gadix-labs\">gadix-labs</a></sub>\n</div>\n",
-      "public_repos": 1,
+      "public_repos": 2,
       "settings_access": "unavailable",
       "twitter_username": null,
       "two_factor_requirement_enabled": false,
@@ -128,8 +128,8 @@
       "verified_domains": []
     },
     {
-      "avatar_colors": 2,
-      "avatar_is_default": true,
+      "avatar_colors": 697,
+      "avatar_is_default": false,
       "avatar_url": "https://avatars.githubusercontent.com/u/354701612?v=4",
       "blog": "https://github.com/org-cheaper-inference",
       "company": null,
@@ -153,8 +153,8 @@
       "verified_domains": []
     },
     {
-      "avatar_colors": 2,
-      "avatar_is_default": true,
+      "avatar_colors": 1006,
+      "avatar_is_default": false,
       "avatar_url": "https://avatars.githubusercontent.com/u/354704956?v=4",
       "blog": "https://github.com/org-omnilabs-ai",
       "company": null,
@@ -178,8 +178,8 @@
       "verified_domains": []
     },
     {
-      "avatar_colors": 2,
-      "avatar_is_default": true,
+      "avatar_colors": 1047,
+      "avatar_is_default": false,
       "avatar_url": "https://avatars.githubusercontent.com/u/354706452?v=4",
       "blog": "https://github.com/org-cheaper-inference-analysis",
       "company": null,
@@ -203,8 +203,8 @@
       "verified_domains": []
     },
     {
-      "avatar_colors": 2,
-      "avatar_is_default": true,
+      "avatar_colors": 1089,
+      "avatar_is_default": false,
       "avatar_url": "https://avatars.githubusercontent.com/u/355048975?v=4",
       "blog": "https://github.com/org-ai-governance",
       "company": null,
@@ -228,8 +228,8 @@
       "verified_domains": []
     },
     {
-      "avatar_colors": 2,
-      "avatar_is_default": true,
+      "avatar_colors": 1142,
+      "avatar_is_default": false,
       "avatar_url": "https://avatars.githubusercontent.com/u/355436980?v=4",
       "blog": "https://github.com/portfolio-git-hub-branding",
       "company": null,
@@ -264,8 +264,8 @@
   "profile_repo_readme_text": "<div align=\"center\">\n\n<img src=\"assets/banner-1280x320.png\" alt=\"Mohamed Gad \u2014 Platform Engineering\" width=\"100%\" />\n\n<a href=\"https://github.com/gadix-labs\">\n  <img src=\"https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&pause=1000&color=00B4D8&center=true&vCenter=true&width=680&lines=Platform+engineer+%C2%B7+Kubernetes+%26+GitOps;Hardening+clusters+for+production;Governance+%26+guardrails+by+default;AI+infrastructure+%26+cheaper+inference\" alt=\"Typing SVG\" />\n</a>\n\n<img src=\"https://komarev.com/ghpvc/?username=gadix-labs&label=Profile%20views&color=0b2545&style=flat\" alt=\"Profile views\" />\n\n</div>\n\n## Focus\n\nI build and harden cloud-native platforms \u2014 upstream Kubernetes, declarative\ndelivery, and the guardrails that keep them safe to run. I care about systems that\nscale and are governed by default.\n\n<img src=\"assets/card-focus-1280x300.png\" alt=\"Focus areas\" width=\"100%\" />\n\n<img src=\"assets/card-skills-1280x220.png\" alt=\"Skills\" width=\"100%\" />\n\n## Domains\n\n| Area | What I work on | Where |\n|---|---|---|\n| **Kubernetes** | Building and hardening upstream clusters | [10-vanilla-k8s-and-hardening](https://github.com/10-vanilla-k8s-and-hardening) |\n| **GitOps** | Declarative delivery with Argo CD and Flux | [30-gitops-argocd-flux](https://github.com/30-gitops-argocd-flux) |\n| **Automation** | Cluster lifecycle and day-2 operations | [40-cluster-automation](https://github.com/40-cluster-automation) |\n| **AI infrastructure** | Governance and cost-efficient inference | [org-ai-governance](https://github.com/org-ai-governance) |\n\n## Organizations\n\n<div align=\"center\">\n\n<a href=\"https://github.com/00-governance\"><img src=\"https://img.shields.io/badge/-Governance-0b2545?style=flat-square&logo=github\" alt=\"Governance\" /></a>\n<a href=\"https://github.com/10-vanilla-k8s-and-hardening\"><img src=\"https://img.shields.io/badge/-Kubernetes-0b2545?style=flat-square&logo=kubernetes\" alt=\"Kubernetes\" /></a>\n<a href=\"https://github.com/30-gitops-argocd-flux\"><img src=\"https://img.shields.io/badge/-GitOps-0b2545?style=flat-square&logo=argo\" alt=\"GitOps\" /></a>\n<a href=\"https://github.com/40-cluster-automation\"><img src=\"https://img.shields.io/badge/-Automation-0b2545?style=flat-square&logo=ansible\" alt=\"Automation\" /></a>\n<a href=\"https://github.com/org-ai-governance\"><img src=\"https://img.shields.io/badge/-AI%20Governance-0b2545?style=flat-square&logo=openai\" alt=\"AI Governance\" /></a>\n<a href=\"https://github.com/org-cheaper-inference\"><img src=\"https://img.shields.io/badge/-Inference-0b2545?style=flat-square&logo=nvidia\" alt=\"Inference\" /></a>\n\n</div>\n\n## Contact\n\n<div align=\"center\">\n\n<a href=\"mailto:gadix-labs@outlook.com\"><img src=\"https://img.shields.io/badge/Email-gadix--labs%40outlook.com-0b2545?style=for-the-badge&logo=microsoftoutlook&logoColor=00b4d8\" alt=\"Email\" /></a>\n\n</div>\n\n---\n\n<sub>Platform engineering, cloud-native operations, and AI infrastructure. Reach out\nif you are hiring or want to talk infrastructure.</sub>\n",
   "social_accounts": [],
   "user": {
-    "avatar_colors": 2,
-    "avatar_is_default": true,
+    "avatar_colors": 1518,
+    "avatar_is_default": false,
     "avatar_url": "https://avatars.githubusercontent.com/u/309897571?v=4",
     "bio": "Platform engineer \u00b7 Kubernetes, GitOps & AI infrastructure",
     "blog": "https://github.com/gadix-labs",
@@ -280,6 +280,6 @@
     "public_gists": 0,
     "public_repos": 2,
     "twitter_username": null,
-    "updated_at": "2026-11-11T18:45:40Z"
+    "updated_at": "2026-11-11T20:42:24Z"
   }
 }

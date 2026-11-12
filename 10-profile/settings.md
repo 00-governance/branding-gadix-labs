@@ -22,7 +22,7 @@ Snapshot of the GitHub user profile for `gadix-labs`.
 | Surface | Status |
 |---|---|
 | Profile README | present (`README.md`, published as `gadix-labs/gadix-labs`) |
-| Avatar | default identicon (`assets/avatar-460.gif` / `.png`) |
+| Avatar | custom (`assets/avatar-460.gif` / `.png`) |
 | Banner | `assets/banner-1280x320.png` |
 | Cards | `assets/card-focus-1280x300.png`, `assets/card-skills-1280x220.png` |
 

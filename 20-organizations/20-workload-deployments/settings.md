@@ -29,7 +29,7 @@ Snapshot of the GitHub settings for this organization. Regenerate with
 | Surface | Status |
 |---|---|
 | Profile README | present (`README.md`) |
-| Logo | default identicon (`assets/20-workload-deployments-logo-460.gif` / `.png`) |
+| Logo | custom (`assets/20-workload-deployments-logo-460.gif` / `.png`) |
 | Banner | `assets/20-workload-deployments-banner-1280x240.png` |
 | Pinned repositories | 0 (set in the web UI — no API) |
 

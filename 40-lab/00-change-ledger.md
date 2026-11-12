@@ -315,3 +315,54 @@ discover → audit toolchain runs end-to-end from the new layout.
 `branding-<github-account>` for the repo, `branding-<github-account>` folder under
 `runtime/`. Next planned convention: a `governance-<account>` organization holding
 the branding repo plus settings docs for all orgs, repos, profile, and preferences.
+
+## Iteration 6 — 2026-11-11 (owner uploaded the logos)
+
+### What changed
+
+The owner uploaded a custom avatar and 10 custom org logos. Re-ran discovery and the
+audit against the live account.
+
+| Surface | Before | After |
+|---|---|---|
+| User avatar (A2) | default identicon, 2 colours, score 0 | custom image, 1518 colours, score 4 |
+| Org logos (O2, x10) | default identicon, 2 colours, score 0 | custom images, 697-1474 colours, score 4 |
+
+### Score
+
+**51.8 → 76.2 / 100.** The +24.4 is entirely A2 and O2 moving from 0 to 4, weighted
+(2.0 each, across the user avatar and 10 org logos).
+
+### Per-dimension (live)
+
+| Dim | Score | Note |
+|---|---|---|
+| A1 Identity | 4 | |
+| A2 Visual identity | 4 | was 0 |
+| A3 Profile README | 4 | |
+| A4 Pinned repositories | 0 | manual, owner only |
+| A5 Social proof & links | 3 | |
+| A6 Account settings | 4 | |
+| O1 Org identity | 4 (x10) | |
+| O2 Org logo | 4 (x10) | was 0 |
+| O3 Org README | 4 (x10) | |
+| O4 Org pinned | 0 (x10) | manual, owner only |
+| O5 Org settings | 2 (x10) | 2FA not enforced |
+| X1 Consistency | 4 | |
+| E1 Embed health | 4 | 10 embeds reachable |
+
+### What is left
+
+Two dimensions are still 0 and both are owner-only (no API):
+
+- **A4 / O4 — pinning.** No API exists. The owner pins repos in the web UI.
+- **O5 — org security settings.** 2FA is not required. Raise via the API (consent) or
+  the org settings page.
+
+If every remaining gap were closed the score would approach 100; the ceiling is set
+by the manual surfaces, not by anything the practice can automate.
+
+### Artifacts refreshed
+
+`00-account/70-inventory-after.json`, `00-account/80-audit-report-after.md`,
+`10-profile/settings.md`, `20-organizations/*/settings.md`, engagement record.
