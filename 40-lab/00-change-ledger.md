@@ -366,3 +366,64 @@ by the manual surfaces, not by anything the practice can automate.
 
 `00-account/70-inventory-after.json`, `00-account/80-audit-report-after.md`,
 `10-profile/settings.md`, `20-organizations/*/settings.md`, engagement record.
+
+## Iteration 7 — 2026-11-11 (fold the learnings back into the practice)
+
+### Request
+
+Track every change made during this engagement and fold it back into the agnostic
+practice, and make the quality-score criteria explicit.
+
+### What was folded, and where
+
+| Learning (from iterations 1-6) | Landed in | Kind |
+|---|---|---|
+| Field vs file surfaces | `20-github-branding-principles.md` §1.3 | concept |
+| Special repos carry READMEs | `70-github-api-reference.md` §4.1; glossary "Special repo" | concept |
+| Self-host beats third-party | `20-github-branding-principles.md` P11 | principle |
+| Fit the brand to real maturity | `20-github-branding-principles.md` P12 | principle |
+| Field/file rule, idempotent publish, assets travel, relative paths, animation optional | `60-rules-and-guardrails.md` §4a (R1-R3, R6, R7) | rules |
+| Verify embeds, verify a surface, never invent facts | `60-rules-and-guardrails.md` §4b (R5, R8, R9) | rules |
+| Dynamic elements — pick few, host your own | `50-content-style-guide.md` §4 | standard |
+| Asset family (one palette, many images) | `40-brand-core-guide.md` §5.1 | standard |
+| Publish order: assets before READMEs | `30-audit-playbook.md` Phase 5 | playbook |
+| Broken embed / third-party stat wall / over-claiming | `20-github-branding-principles.md` §8 | anti-pattern |
+| Embed health (E1) | `30-github-brand-verify` checklist; audit `--check-embeds` | reference |
+
+### The score, made explicit
+
+`skills/10-github-account-audit/references/10-dimensions-and-scoring.md` was
+rewritten from a summary into the exact rubric:
+
+- what the score is (mechanical, quality-aware, weighted, absolute) and what it is
+  **not** (taste, popularity, repo content);
+- the 0-4 scale with the "first matching test wins" rule;
+- the formula and the weights, including that **weight is per finding**, so ten orgs
+  produce ten O2 findings;
+- a worked calculation of the live **76.2/100** (279 / 366);
+- the exact test behind every dimension, matching `audit.py` line for line;
+- an explicit list of what the score deliberately does not measure;
+- score bands for reading the result.
+
+### Corrections made while folding
+
+- Removed the two false pin mutations (`updateUserPins`,
+  `updateOrganizationPins`) from the API-reference matrix diagram — they do not
+  exist in the schema. Pinning is web-UI only.
+- Fixed stale skill text: `10-github-account-audit/SKILL.md` said "ten surfaces"
+  and described `TBD` judgment calls; both are wrong. It now says thirteen
+  dimensions, mechanical, with `--check-embeds`.
+- Clarified the dimension count: twelve core + the opt-in E1 = thirteen.
+- Renamed the one-page guardrail summary nodes from `R1..R9` to `G1..G11` so they
+  no longer collide with the new rule IDs R1-R9.
+
+### Not folded (deliberately)
+
+- The runtime asset pipeline (`make_assets.py`, `upload_asset.py`) and the Pillow
+  dependency. These are still runtime-only; generalizing them is a separate
+  mission (backlog gaps 2 and 3).
+
+### Artifacts refreshed
+
+`40-lab/10-portfolio-backlog.md` — every READY item marked FOLDED with its
+destination; two gaps marked CLOSED.
